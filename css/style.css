@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+  
+}
+.main{
+    display: flex;
+}
+.clr{
+clear: both;
+}
+/* =====================================
+        header-part css start
+========================================*/
+#header-part{
+    width: 100%;
+    background: #0f2f44;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+  
+}
+#header-part .left{
+    width: 50%;
+}
+#header-part .right{
+    width: 50%;
+    text-align: right;
+}
+
+/* =====================================
+        header-part css end
+========================================*/
+/* =====================================
+      nav-part css start
+========================================*/
+nav{
+    margin: 50px
+}
+nav .logo{
+    width: 15%;
+}
+nav .item{
+    width: 75%;
+}
+nav .item ul{
+    text-align: center;
+}
+nav .item ul li{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+nav .item ul li a{
+    color: #0f2f44;
+    transition: .5s;
+}
+nav .item ul li a:hover{
+    color: #ffc712;
+}
+nav .icon{
+    width: 10%;
+text-align: right;
+margin-top: 10px;
+}
+nav .icon a{
+    margin-left: 20px;
+    transition: .5s;
+    color: #0f2f44;
+}
+nav .icon a:hover{
+    color: #ffc712;
+}
+/* =====================================
+       nav-part css end
+========================================*/
+/* =====================================
+       banner-part css start
+========================================*/
+#banner-part{
+    background: url(../images/banner.png) no-repeat center;
+    background-position: cover;
+    padding: 100px;
+}
+#banner-part h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #0f2f44;
+}
+#banner-part h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #0f2f44;
+    margin-top: -15px;
+}
+#banner-part h5{
+    color: #cf82df;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 14px;
+    margin: 20px 0;
+}
+#banner-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 400px;
+    color: #0f2f44;
+}
+/* =====================================
+       banner-part css end
+========================================*/
